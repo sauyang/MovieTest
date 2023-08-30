@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_blue">#FF33B5E5</color>
+    <color name="light_blue_super">#D5FFFF</color>
+    <color name="color_input_blank">#f9f9f9</color>
+    <color name="inactive_color">#949494</color>
+
+    <color name="blue">#0009ff</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="button_negative">#999494</color>
+
+    <color name="buttonpositive_red">#ff3e3e</color>
+
+    <color name="red">#E60000</color>
+    <color name="jt_white">#FFFFFF</color>
+    <color name="jt_black">#000000</color>
+
+    <color name="white_color">#FFFFFF</color>
+    <color name="darkGray">#666363</color>
+    <color name="smokeGray">#848884</color>
+    <color name="gray">#808080</color>
+    <color name="medium_grey">#AAAAAA</color>
+    <color name="silverGray">#C0C0C0</color>
+    <color name="lightGray">#CCCCCC</color>
+    <color name="lighterGray">#f1f0f0</color>
+    <color name="lighterGrayOpacity">#8cf1f0f0</color>
+    <color name="coachmark_overlay_bg">#88000000</color>
+    <color name="loading_grey_transparency">#44000000</color>
+
+    <color name="light_pink">#FFB6C1</color>
+    <color name="lighter_pink">#FFE6EE</color>
+    <color name="text_negative_number_color">#CA0A14</color>
+    <color name="text_black_color">#000000</color>
+    <color name="general_theme_color">#ff3e3e</color>
+    <color name="text_dark_red">#ffcc0000</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="text_gray_color">#666363</color>
+    <color name="text_dark_grey_color">#333333</color>
+    <color name="ListingLightGrey">#FBF9F4</color>
+
+
+    <color name="spinner_dropdown_background_stroke_color">#bbb</color>
+    <color name="textColorPrimary">@color/text_black_color</color>
+    <color name="general_bg">#FFFFFF</color>
+    <color name="gold_color">#F5AC00</color>
+    <color name="orange">#F06529</color>
+</resources>

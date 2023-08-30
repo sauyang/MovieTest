@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/onBoardingImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_25sdp"
+            android:contentDescription="loginSignUpImage"
+            android:rotation="0"
+            android:scaleType="centerCrop"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:src="@drawable/sitmovie" />
+
+        <LinearLayout
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TV.tVBoldBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginSignUpTitle"
+                android:textAlignment="center"
+                android:textColor="@color/blue" />
+
+
+            <TextView
+                style="@style/TV.tVLightBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="@string/loginSignUpDesc"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginBtn"
+            style="@style/TV.tVBoldSmall"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_btn"
+            android:backgroundTint="@color/blue"
+            android:elevation="0dp"
+            android:shadowRadius="0"
+            android:stateListAnimator="@null"
+            android:text="@string/btnLogin"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signUpBtn"
+            style="@style/TV.tVBoldSmall"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_btn_white"
+            android:elevation="0dp"
+            android:shadowRadius="0"
+            android:stateListAnimator="@null"
+            android:text="@string/btnSignUp"
+            android:textAllCaps="false"
+            android:textColor="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

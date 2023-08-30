@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Movie Test</string>
+
+    <string name="btnLogin">Login</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="search">Search</string>
+    <!-- login signup activity -->
+    <string name="loginSignUpTitle">Access more with an account</string>
+    <string name="loginSignUpDesc">Login to an account so you could access more features</string>
+
+    <string name="loginTitle">Welcome back &#128075;</string>
+    <string name="loginDesc">I am so happy to see you again. You can continue to login for more features.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="dontHvAcc">Don\'t have an account?</string>
+    <string name="dontHvAccSignUp">Sign up</string>
+    <string name="usernamePasswordEmpty">Username or Password cannot empty !</string>
+    <string name="wrongUsernamePasswrd">Username or Password is wrong !</string>
+
+    <string name="defaultPassword">\@bcd1234</string>
+    <!-- movie detail -->
+    <string name="plotSummary">Plot Summary</string>
+    <string name="otherRatings">Other Ratings</string>
+</resources>

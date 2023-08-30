@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="FontThin" translatable="false">HarmonyOS_Sans_Thin</string>
+    <string name="FontBold" translatable="false">HarmonyOS_Sans_Bold</string>
+    <string name="FontRegular" translatable="false">HarmonyOS_Sans_Regular</string>
+
+</resources>

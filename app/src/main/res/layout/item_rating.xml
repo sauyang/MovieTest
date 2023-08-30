@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/bg_common_white_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/ratingTitle"
+            style="@style/TV.tVBoldSmall"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internet Movie Database"
+            android:textColor="@color/darkGray" />
+
+        <TextView
+            android:id="@+id/ratingScore"
+            style="@style/TV.tVBoldSmall"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.8/10"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
